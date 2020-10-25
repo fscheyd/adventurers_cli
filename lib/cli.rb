@@ -1,7 +1,7 @@
 class CLI
 
   def start
-      puts "How do you want to do this?"
+      puts "Roll Initiative!"
       API.fetch_monsters
   end
 

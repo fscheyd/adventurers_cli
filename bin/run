@@ -2,7 +2,7 @@
 
 require_relative "../environment.rb"
 
-puts "Roll Initiative!"
+puts "Hello Adventurer."
 
 cli_instance = CLI.new
 cli_instance.start
