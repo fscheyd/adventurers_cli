@@ -20,6 +20,13 @@ class CLI
       display_monster_grimoire
       select_quarry
 
+      sleep(3)
+      puts "\n"
+      puts "\n"
+
+      monster_grimoire
+    else
+      puts "You've found your quarry, Goodbye!"
     end
 
   end
@@ -49,15 +56,15 @@ class CLI
 
   end
 
-  def display_monster_facts(monsters)
+  def display_monster_facts(monster)
     sleep(1)
     puts "\n"
     puts monster.name
-    puts "Size" + monster.size
-    puts "Type" + monster.type
-    puts "Alignment" + monster.alignment
-    puts "Armor Class" + monster.armor_class
-    puts "Hit Points" + monster.hit_points
+    puts "Size: " + monster.size
+    puts "Type: " + monster.type
+    puts "Alignment: " + monster.alignment
+    puts "Armor Class: #{monster.armor_class}"
+    puts "Hit Points: #{monster.hit_points}"
   end
 
 
