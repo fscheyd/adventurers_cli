@@ -21,7 +21,6 @@ class API
     # :"name", :"size" ,:"alignment" ,:"armor_class" ,:"hit_points"
 
     array_of_beasts.each do |monster_hash|
-      binding.pry
       monster = Monsters.new
         monster.name = monster_hash["name"]
         monster.size = monster_hash["size"]
