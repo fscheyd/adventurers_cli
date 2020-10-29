@@ -25,8 +25,8 @@ Please select which creature you would like to learn about by selecting a number
 "Select a number will print out Monster information."
 ```
 ## External links
-Blogpost:
-Youtube VIdeo:
+[Blogpost](https://fscheyd.github.io/the_adventurers_cli_a_test_in_technical_application)
+[Youtube Video] (https://www.youtube.com/watch?v=wTDL_lS8PV0&feature=youtu.be)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
