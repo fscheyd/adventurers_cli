@@ -8,7 +8,7 @@ class CLI
 
   def monster_grimoire
     # give user list of monster
-    puts "Can you see that moster up ahead?"
+    puts "Can you see that monster up ahead?"
     puts "Type 'yes' to roll perception check, or any other key to exit."
 
     user_input = gets.strip.downcase
