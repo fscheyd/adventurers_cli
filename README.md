@@ -4,7 +4,7 @@ Hello Adventurers! This is a CLI application that takes the first page of Monste
 
 ## Installation
 
-Use: git clone git@github.com:fscheyd/adventurers_cli.git to install the Advdnturer's CLI.
+Use: git clone git@github.com:fscheyd/adventurers_cli.git to install the Adventurer's CLI.
 
 ```bash
 git clone git@github.com:fscheyd/adventurers_cli.git
